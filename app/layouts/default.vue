@@ -7,14 +7,18 @@
         <NuxtLink active-class="active-link" class="nav-link" to="/weather-stack">Weather</NuxtLink>
     </nav>
     <div class="content"><slot></slot></div>
-    <footer class="footer">
+    <!-- <footer class="footer">
         <p>prod. by Arnolder</p>
         <p class="footer-zo">*никакие права не защищены</p>
-    </footer>
+    </footer> -->
+    <FooterLayout></FooterLayout>
   </div>
 </template>
 
-<script setup lang="ts"></script>
+<script setup lang="ts">
+import FooterLayout from './footer-layout.vue';
+
+</script>
 
 <style scoped>
 .layout-wrapper {
