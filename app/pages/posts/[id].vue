@@ -4,9 +4,7 @@
 </template>
 
 <script setup lang="ts">
-definePageMeta({
-    layout: 'new-layout'
-})
+
 const route = useRoute();
 console.log(route);
 </script>
