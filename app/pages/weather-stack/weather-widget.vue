@@ -62,6 +62,11 @@ const humidity = computed(() =>
   display: flex;
   flex-direction: column;
   row-gap: 20px;
+
+  transition: transform 0.3s ease;
+}
+.weather-info:hover {
+  transform: scale(1.1);
 }
 .weather-info_dark {
   background: linear-gradient(rgb(111, 113, 121), rgb(24, 24, 26));
