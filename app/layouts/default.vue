@@ -5,12 +5,9 @@
         <NuxtLink active-class="active-link" class="nav-link" to="/">Main</NuxtLink>
         <NuxtLink active-class="active-link" class="nav-link" to="/posts">Posts</NuxtLink>
         <NuxtLink active-class="active-link" class="nav-link" to="/weather-stack">Weather</NuxtLink>
+        <NuxtLink active-class="active-link" class="nav-link" to="/clock-stack">Clock</NuxtLink>
     </nav>
     <div class="content"><slot></slot></div>
-    <!-- <footer class="footer">
-        <p>prod. by Arnolder</p>
-        <p class="footer-zo">*никакие права не защищены</p>
-    </footer> -->
     <FooterLayout></FooterLayout>
   </div>
 </template>
